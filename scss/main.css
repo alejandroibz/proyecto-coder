@@ -274,7 +274,8 @@ p, a, li, td {
     border-radius: 15px;
     height: 250px;
     margin-top: 4rem;
-    background-color: #0C9EF7; }
+    background-color: #0C9EF7;
+    padding: 10px; }
     .section__index .section__index__article .section__index__article--parrafo {
       line-height: 2; }
     .section__index .section__index__article .fa-assistive-listening-systems {
@@ -292,6 +293,7 @@ p, a, li, td {
     height: 250px;
     margin-top: 4rem;
     background-color: #0C9EF7;
+    padding: 10px;
     margin-left: 4rem; }
     .section__index .section__index__article2 .fa-map-marked-alt {
       font-size: 40px;
@@ -313,6 +315,7 @@ p, a, li, td {
     height: 250px;
     margin-top: 4rem;
     background-color: #0C9EF7;
+    padding: 10px;
     margin-left: 4rem; }
     .section__index .section__index__article3 .fa-handshake {
       font-size: 40px;
@@ -451,6 +454,7 @@ p, a, li, td {
       height: 250px;
       margin-top: 4rem;
       background-color: #0C9EF7;
+      padding: 10px;
       margin: 4rem 0 0 2rem;
       width: 800px;
       height: 300px; }
@@ -476,6 +480,7 @@ p, a, li, td {
       height: 250px;
       margin-top: 4rem;
       background-color: #0C9EF7;
+      padding: 10px;
       margin: 4rem 0 0 2rem;
       width: 800px; }
       .section__index .section__index__article2 .section__index__article2--titulo {
@@ -501,6 +506,7 @@ p, a, li, td {
       height: 250px;
       margin-top: 4rem;
       background-color: #0C9EF7;
+      padding: 10px;
       margin: 4rem 0 0 2rem;
       width: 800px;
       height: 300px; }
@@ -620,7 +626,7 @@ p, a, li, td {
       grid-row: 2/4;
       align-self: center;
       margin-left: 100px;
-      font-size: 40px;
+      font-size: 30px;
       width: 400px;
       color: #000000; }
     .section__pacientes .section__pacientes__art1 .section__pacientes__art1--lista {
@@ -652,12 +658,15 @@ p, a, li, td {
     .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div--parrafo {
       margin-left: 50px;
       margin-top: 30px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      line-height: 2; }
     .section__pacientes .section__pacientes__art2 .section__pacientes__art2--img {
       width: 400px;
+      height: 100%;
       grid-column: 5/9;
       grid-row: 4/6;
-      margin-left: 20px; }
+      margin-left: 20px;
+      border-radius: 10px; }
     .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div--lista {
       list-style: none;
       color: #862424; }
@@ -665,7 +674,8 @@ p, a, li, td {
       margin-bottom: 20px;
       width: 400px;
       margin-left: 50px;
-      color: black; }
+      color: black;
+      line-height: 2; }
   .section__pacientes .section__pacientes__art3 {
     grid-column: 1/9;
     grid-row: 6/8;
@@ -684,7 +694,8 @@ p, a, li, td {
       margin-top: 10px;
       width: 700px;
       margin-left: 60px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      line-height: 2; }
 
 .main__fono {
   display: grid;
@@ -713,7 +724,8 @@ p, a, li, td {
       font-family: 'Open Sans', sans-serif;
       padding-left: 50px;
       padding-right: 50px;
-      margin-top: 50px; }
+      margin-top: 20px;
+      line-height: 2; }
   .main__fono .main__fono__img {
     grid-column: 6/11;
     grid-row: 1/3;
@@ -738,7 +750,8 @@ p, a, li, td {
       padding-left: 50px;
       padding-right: 50px;
       margin-top: 50px;
-      text-align: right; }
+      text-align: right;
+      line-height: 2; }
   .section__fono .section__fono__div2 {
     grid-column: 6/11;
     grid-row: 1/3;
@@ -751,10 +764,12 @@ p, a, li, td {
     width: 650px;
     height: 470px; }
     .section__fono .section__fono__div2 .section__fono__div2--titulo {
-      color: #000000; }
+      color: #000000;
+      margin-top: 15px; }
     .section__fono .section__fono__div2 .section__fono__div2--parrafo {
       margin-bottom: 10px;
-      margin-top: 10px; }
+      margin-top: 5px;
+      line-height: 2; }
   .section__fono .section__fono__div3 {
     grid-column: 1/11;
     grid-row: 3/5;
@@ -762,13 +777,14 @@ p, a, li, td {
     text-align: center;
     padding-bottom: 100px;
     margin: 130px 0 0 0;
+    line-height: 2;
     width: 1300px; }
     .section__fono .section__fono__div3 .section__fono__div3--titulo {
       margin-top: 60px;
       margin-bottom: 30px;
       font-size: 30px; }
     .section__fono .section__fono__div3 .section__fono__div3--parrafo {
-      margin-top: 80px;
+      margin-top: 30px;
       padding-left: 80px;
       padding-right: 80px;
       font-size: 18px; }
