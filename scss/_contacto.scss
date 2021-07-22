@@ -1,0 +1,194 @@
+$color-azul:#0C5CED;
+$color-celeste:#0C9EF7;
+$color-celeste-claro:#00C6E0;
+$color-amarillo:#FAB416;
+$color-naranja:#F07D00;
+
+.main__contacto {
+    display: grid;
+    
+
+    .contacto__form {
+    display: flex;
+    flex-direction: column;
+    grid-column:1/6;
+    grid-row: 1/9;
+    width: 500px;
+    border-radius: 10px;
+    padding: 40px 20px;
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 80px 0 0 50px;
+    
+        .contacto__form--select {
+            border: none;
+        }       
+
+        .contacto__form--label {
+            color: $color-celeste;
+        }
+
+        .contacto__form--input, .contacto__form--textarea {
+            margin: 10px 0;
+            
+            padding: 8px;
+            border: none;
+            border-radius: 15px;
+            border-bottom: 1px solid #BFB063
+        }
+
+        .contacto__form--input:focus, .contacto__form--textarea:focus {
+            outline: none;
+        }
+
+        .contacto__form--textarea {
+            font-family: 'Open Sans', sans-serif;
+        }
+            
+    }
+
+    .main__contacto__div {
+        grid-column:6/11 ;
+        grid-row:1/9;
+        text-align: center;
+        box-shadow: 0px 0px 15px 2px #3f3f3f;
+        background-color: $color-celeste;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        margin-top: 130px;
+        margin-bottom: auto;
+        height: 500px;
+        width: 600px;
+
+        .main__contacto__div--titulo {
+            margin-bottom: 20px;
+            margin-top: 10px;
+            color: #000000;
+            font-size: 35px;
+        }
+
+        .main__contacto__div--parrafo {
+            margin-bottom: 20px;
+            width: 500px;
+            text-align: left;
+            margin:3rem 0 1rem 3rem ;
+            line-height: 2;
+        }
+
+        .main__contacto__div--lista {
+            text-align: left;
+            margin: 3rem 0 3rem 4rem;
+        }
+    }
+
+}
+
+
+.section__contacto {
+    .section__contacto__iframe {
+        grid-column:1/11 ;
+        grid-row:9/14 ;
+        margin: 4rem 0 2rem 4rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+.main__contacto {
+    display: grid;
+    
+
+    .contacto__form {
+    display: flex;
+    flex-direction: column;
+    grid-column:1/6;
+    grid-row: 1/9;
+    width: 500px;
+    border-radius: 10px;
+    padding: 40px 20px;
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 80px 0 0 50px;
+    
+        .contacto__form--select {
+            border: none;
+        }       
+
+        .contacto__form--label {
+            color: $color-celeste;
+        }
+
+        .contacto__form--input, .contacto__form--textarea {
+            margin: 10px 0;
+            
+            padding: 8px;
+            border: none;
+            border-radius: 15px;
+            border-bottom: 1px solid #BFB063
+        }
+
+        .contacto__form--input:focus, .contacto__form--textarea:focus {
+            outline: none;
+        }
+
+        .contacto__form--textarea {
+            font-family: 'Open Sans', sans-serif;
+        }
+            
+    }
+
+    .main__contacto__div {
+        grid-column:6/11 ;
+        grid-row:1/9;
+        text-align: center;
+        box-shadow: 0px 0px 15px 2px #3f3f3f;
+        background-color: $color-celeste;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        margin: 5rem 0 auto 0;
+        height: 720px;
+        width: 400px;
+
+        .main__contacto__div--titulo {
+            margin-bottom: 20px;
+            margin-top: 10px;
+            color: #000000;
+            font-size: 50px;
+        }
+
+        .main__contacto__div--parrafo {
+            margin-bottom: 20px;
+            width: 300px;
+            text-align: left;
+            margin:3rem 0 1rem 1rem ;
+            line-height: 2;
+            font-size: 20px;
+        }
+
+        .main__contacto__div--lista {
+            text-align: left;
+            margin: 3rem 0 3rem 4rem;
+            font-size: 20px;
+        }
+    }
+
+}
+
+
+.section__contacto {
+    .section__contacto__iframe {
+        grid-column:1/11 ;
+        grid-row:9/14 ;
+        margin: 4rem 0 2rem 4rem;
+    }
+}
+
+
+}
+
+
+
+
