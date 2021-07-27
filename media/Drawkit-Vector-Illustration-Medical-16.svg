@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1862px" height="2443px" viewBox="0 0 1862 2443" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L1853 0L1853 2434L0 2434L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Drawkit-Vector-Illustration-Medical-16" transform="translate(4.4400024 4.4399414)">
+    <path d="M0 0L1853 0L1853 2434L0 2434L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <g id="RECEPTION" transform="translate(518.9962 789.699)">
+        <g id="SECRETARY" transform="translate(185.98376 0)">
+          <g id="CHAIR" transform="translate(366.03064 449.98083)">
+            <path d="M646.379 312.42L584.179 515.64C571.249 557.9 535.24 586.36 494.709 586.36L142.799 586.36C102.269 586.36 66.2594 557.9 53.3195 515.64L2.16943 348.49C-6.75061 319.36 12.9495 289.19 40.8894 289.19L80.2894 289.19C98.8495 289.19 114.579 274.19 117.169 253.93L140.169 74.64C145.649 31.83 178.949 0 218.239 0L535.129 0C583.019 0 619.859 46.59 613.209 98.78L593.499 253.46C591.099 272.34 604.419 289.19 621.749 289.19L631.259 289.19C642.149 289.19 649.869 301.01 646.379 312.42L646.379 312.42Z" id="Shape" fill="#6464C8" fill-rule="evenodd" stroke="none" />
+            <path d="M0 0L51.58 0L51.58 383.43L0 383.43L0 0Z" transform="translate(291.55933 580.90015)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="#6464C8" stroke-width="7.4" />
+            <path d="M278.17 51.05L278.17 33.27C278.17 14.8999 257.05 0 231 0L47.17 0C21.17 0 0 14.8999 0 33.27L0 51.05" transform="translate(179.81934 964.3202)" id="Shape" fill="none" fill-rule="evenodd" stroke="#6464C6" stroke-width="8.88" />
+            <path d="M0 36.18C0 16.1983 16.1983 0 36.18 0C56.1617 0 72.36 16.1983 72.36 36.18C72.36 56.1617 56.1617 72.36 36.18 72.36C16.1983 72.36 0 56.1617 0 36.18Z" transform="translate(144.61938 1015.37024)" id="Circle" fill="#FFFFFF" fill-rule="evenodd" stroke="#E3B03D" stroke-width="7.4" />
+            <path d="M0 36.18C0 16.1983 16.1983 0 36.18 0C56.1617 0 72.36 16.1983 72.36 36.18C72.36 56.1617 56.1617 72.36 36.18 72.36C16.1983 72.36 0 56.1617 0 36.18Z" transform="translate(421.1593 1015.37024)" id="Circle" fill="#FFFFFF" fill-rule="evenodd" stroke="#E3B03D" stroke-width="7.4" />
+          </g>
+          <g id="LEGS" transform="translate(58.990234 739.427)">
+            <g id="LEFT_LEG" transform="translate(0 4.0533447)">
+              <path d="M142.245 0C137.615 17.3799 120.805 76.8101 126.835 98.1299C132.865 119.45 149.765 135.13 145.105 156.87C140.105 180.02 4.3349 165.38 0.164917 164.45C-4.00507 163.52 72.2749 121.17 73.1649 89.6599C74.0549 58.1499 64.0049 0 64.0049 0L142.245 0Z" transform="translate(28.784912 614.88074)" id="FOOT" fill="#D28E46" fill-rule="evenodd" stroke="none" />
+              <g id="SHOES" transform="translate(0 725.1207)">
+                <path d="M182.3 7.23486L182.3 7.23999C182.3 9.23657 181.594 10.9407 180.182 12.3523C178.771 13.7642 177.066 14.47 175.07 14.47L7.22998 14.47C5.23346 14.47 3.52936 13.7642 2.11761 12.3523C0.705872 10.9407 0 9.23657 0 7.23999L0 7.23486L0 7.22998C0 5.2334 0.705872 3.5293 2.11761 2.11768C3.52936 0.705811 5.23346 0 7.22998 0L175.07 0C177.066 0 178.771 0.705811 180.182 2.11768C181.594 3.5293 182.3 5.2334 182.3 7.22998L182.3 7.23486Z" transform="translate(0 56.339844)" id="Rectangle" fill="#94BCD3" fill-rule="evenodd" stroke="none" />
+                <path d="M119.82 31.4993C119.82 31.4993 102.18 9.99927 77.33 3.6792C50.09 -3.25073 36.88 0.439209 22.19 7.86914C7.96002 15.0591 0 30.5791 0 30.5791L119.82 31.4993Z" transform="translate(7.6098022 25.770752)" id="Shape" fill="#CFE0F9" fill-rule="evenodd" stroke="none" />
+                <path d="M0.0102539 56.9399C0.0102539 56.9399 -1.48975 6.55005 31.8303 0C31.8303 0 63.8303 28.5601 46.1302 56.9399L0.0102539 56.9399Z" transform="translate(128.01953 0)" id="Shape" fill="#CFE0F9" fill-rule="evenodd" stroke="none" />
+              </g>
+              <path d="M78.23 0L0 0C0 0 1.92999 11.1799 4 26.3799C32.46 29.0598 61.71 19.6199 74.18 14.8999C75.83 8.67993 77.23 3.48999 78.23 0L78.23 0Z" transform="translate(92.799805 614.88074)" id="SHADOW" fill="#C97C2D" fill-rule="evenodd" stroke="none" />
+              <path d="M314.66 272.661C271.44 272.591 227.13 272.231 168.66 271.351C175.83 321.691 183.29 384.241 182.15 435.541C181.07 483.881 171.15 490.401 171.55 510.761C172.23 543.491 150.42 554.341 157.47 577.761C169.33 616.961 130.47 614.911 130.47 614.911C130.47 614.911 79.6004 624.281 41.0304 614.911L1.63037 209.911C-9.69965 172.271 40.0104 126.911 89.1003 104.911C173.61 67.0605 494.27 -77.6495 536.28 54.6305C547.42 89.8207 511.56 273.001 314.66 272.661L314.66 272.661Z" transform="translate(40.51941 0)" id="PANT" fill="#C5D7F9" fill-rule="evenodd" stroke="none" />
+            </g>
+            <g id="RIGHT_LEG" transform="translate(238.37988 0)">
+              <path d="M142.235 0C137.605 17.3799 120.805 76.8101 126.825 98.1299C132.845 119.45 149.755 135.13 145.105 156.87C140.105 180.02 4.33484 165.38 0.164917 164.45C-4.005 163.52 72.2649 121.17 73.1649 89.6599C74.0649 58.1499 64.0149 0 64.0149 0L142.235 0Z" transform="translate(28.744995 618.9341)" id="FOOT-2" fill="#D28E46" fill-rule="evenodd" stroke="none" />
+              <g id="SHOES-2" transform="translate(0 729.1741)">
+                <path d="M182.3 7.23486L182.3 7.23999C182.3 9.23657 181.594 10.9407 180.182 12.3523C178.771 13.7642 177.067 14.47 175.07 14.47L7.23004 14.47C5.23352 14.47 3.52942 13.7642 2.11768 12.3523C0.705933 10.9407 6.10352e-05 9.23657 0 7.23999L6.10352e-05 7.23486L0 7.22998C6.10352e-05 5.2334 0.705933 3.5293 2.11768 2.11768C3.52942 0.705811 5.23352 0 7.23004 0L175.07 0C177.067 0 178.771 0.705811 180.182 2.11768C181.594 3.5293 182.3 5.2334 182.3 7.22998L182.3 7.23486Z" transform="translate(0 56.339844)" id="Rectangle" fill="#94BCD3" fill-rule="evenodd" stroke="none" />
+                <path d="M119.83 31.4993C119.83 31.4993 102.18 9.99927 77.33 3.6792C50.1 -3.25073 36.8801 0.439209 22.19 7.86914C7.96002 15.0591 0 30.5791 0 30.5791L119.83 31.4993Z" transform="translate(7.5999146 25.770752)" id="Shape" fill="#CFE0F9" fill-rule="evenodd" stroke="none" />
+                <path d="M0.010376 56.9399C0.010376 56.9399 -1.49963 6.55005 31.8204 0C31.8204 0 63.8204 28.5601 46.1205 56.9399L0.010376 56.9399Z" transform="translate(128.01953 0)" id="Shape" fill="#CFE0F9" fill-rule="evenodd" stroke="none" />
+              </g>
+              <path d="M78.1901 0L0 0C0 0 1.93994 11.1799 4 26.3799C32.47 29.0598 61.72 19.6199 74.1899 14.8999C75.8601 8.67993 77.2601 3.48999 78.1901 0L78.1901 0Z" transform="translate(92.789795 618.9341)" id="SHADOW-2" fill="#C97C2D" fill-rule="evenodd" stroke="none" />
+              <path d="M316.094 276.714C272.874 276.644 228.564 276.284 170.094 275.404C177.264 325.744 184.724 388.294 183.584 439.594C182.504 487.934 187.364 494.454 187.794 514.814C188.474 547.544 181.464 558.394 188.514 581.814C200.374 621.014 161.514 618.964 161.514 618.964C161.514 618.964 110.644 628.334 72.074 618.964L3.07397 213.964C-8.24603 176.324 11.844 130.964 60.934 108.964C145.454 71.1139 455.554 -106.216 506.634 92.7339C515.764 128.454 513.004 277.054 316.094 276.714L316.094 276.714Z" transform="translate(9.46582 0)" id="PANT-2" fill="#CFE0F9" fill-rule="evenodd" stroke="none" />
+            </g>
+          </g>
+          <g id="LEFT_HAND" transform="translate(0 295.81177)">
+            <path d="M166.87 17.4893C172.24 51.0992 198.01 69.2092 103.47 302.109C67.61 390.469 -5.07007 348.309 0.279907 302.959C5.62988 257.609 65.09 80.1892 85.5099 38.8693C107.65 -5.95068 162.4 -10.5107 166.87 17.4893L166.87 17.4893Z" transform="translate(333.90002 0)" id="Shape" fill="#D1E2FB" fill-rule="evenodd" stroke="none" />
+            <path d="M335.913 73.6732C267.473 107.803 0.772522 88.0432 0.00250244 70.9032C-0.887512 50.9032 235.463 6.00317 285.783 0.503174C345.812 -6.05676 376.712 53.3333 335.913 73.6732L335.913 73.6732Z" transform="translate(67.78754 266.276)" id="Shape" fill="#E38E32" fill-rule="evenodd" stroke="none" />
+            <path d="M114.89 4.41907C113.18 -1.72095 65.61 -0.890991 50 3.41907C34.39 7.72913 13 25.8391 10 29.8291C7 33.8191 0 54.6392 0 54.6392C0 54.6392 6.12 62.3792 14.91 50.4891C23.7 38.5991 46.06 26.0092 51.45 29.6191C63.5599 37.7291 35.6699 43.7892 32.2999 48.6191C28.9299 53.4491 30.39 56.6191 30.39 56.6191C30.39 56.6191 59.3099 50.8491 63.7999 50.5392C68.2899 50.2293 83.4899 43.9791 92.3999 36.7692C101.31 29.5592 117.41 13.4691 114.89 4.41907L114.89 4.41907Z" transform="translate(0 321.7002)" id="Shape" fill="#E38E32" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="SHIRT" transform="translate(436.23633 268.46484)">
+            <path d="M373.974 596.576C416.974 647.126 325.584 419.126 308.414 361.576C300.294 334.356 318.824 228.856 338.594 142.936C358.594 55.8062 327.124 24.5061 273.024 11.0161C212.684 -4.04395 134.664 -0.0838623 116.234 2.36609C57.9636 10.0861 43.8636 16.9561 17.0337 31.3661C3.70374 38.5261 4.40369 177.366 0.503662 213.906C-3.39636 250.446 15.9237 272.586 38.7136 287.656C45.2236 291.966 58.8837 314.786 58.5636 368.656C58.2435 422.526 50.4236 451.476 28.7836 481.776C28.7837 481.776 251.524 452.736 373.974 596.576L373.974 596.576Z" id="Shape" fill="#E7F0FD" fill-rule="evenodd" stroke="none" />
+            <path d="M276423 172729L249065 199278L236989 173195" transform="translate(58.243652 8.456177)" id="Polyline" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="8.88" />
+          </g>
+          <g id="RIGHT_HAND" transform="translate(426.36 299.01648)">
+            <path d="M68.0912 4.7146C93.0912 27.8546 124.981 75.0146 194.261 316.635C220.531 408.295 160.561 405.635 136.801 366.635C113.041 327.635 12.7113 150.105 2.94128 105.065C-14.0588 26.6445 47.2813 -14.5854 68.0912 4.7146L68.0912 4.7146Z" transform="translate(265.17883 0)" id="Shape" fill="#D1E2FB" fill-rule="evenodd" stroke="none" />
+            <path d="M362.003 66.5751C291.003 102.295 0.853027 64.0651 0.00305176 46.265C-0.996948 25.455 247.523 6.57507 299.783 0.655029C362.103 -6.3949 404.313 45.3251 362.003 66.5751L362.003 66.5751Z" transform="translate(85.47693 324.95947)" id="Shape" fill="#E38E32" fill-rule="evenodd" stroke="none" />
+            <path d="M125.01 27.7549C125.37 34.1249 80.0601 48.6449 63.88 49.5449C47.7 50.4449 21.63 40.215 17.49 37.4149C13.35 34.6149 0 17.1449 0 17.1449C0 17.1449 3.31006 7.85486 15.45 16.2849C27.5898 24.715 52.8199 29.4449 56.76 24.2849C65.61 12.705 37.27 15.9449 32.51 12.4449C27.75 8.94495 28.14 5.44495 28.14 5.44495C28.14 5.44495 57.37 1.60498 61.72 0.444946C66.0699 -0.715088 82.47 0.334961 93.23 4.28491C103.99 8.23486 124.49 18.3749 125.01 27.7549L125.01 27.7549Z" transform="translate(0 347.01965)" id="Shape" fill="#E38E32" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="HEAD" transform="translate(469.82007 0)">
+            <g id="HAIR" transform="translate(7.922119 0)">
+              <path d="M156.078 153.921C179.778 149.251 211.518 105.531 200.638 68.051C189.758 30.571 136.558 -13.569 82.1379 3.96106C27.7179 21.4911 -5.67212 47.6411 0.797974 101.311C5.93799 143.981 139.488 283.311 231.518 278.021C268.518 275.901 305.838 198.101 257.518 169.081C209.198 140.061 156.078 153.921 156.078 153.921L156.078 153.921Z" id="Shape" fill="#E5B21A" fill-rule="evenodd" stroke="none" />
+              <path d="M121.9 25.3381C73.02 -19.4919 0 8.81812 0 8.81812" transform="translate(157.43787 143.74292)" id="Shape" fill="none" fill-rule="evenodd" stroke="#E5B21A" stroke-width="5.92" />
+            </g>
+            <g id="NECK" transform="translate(52.619873 149.25092)">
+              <path d="M103.92 6.10352e-05C103.92 6.10352e-05 96.15 88.3801 142.65 122.92L43.3001 238.62L0 127.33C0 127.33 48.5 118.33 28.49 0L103.92 6.10352e-05Z" transform="translate(0 0.050048828)" id="NECK-2" fill="#D49046" fill-rule="evenodd" stroke="none" />
+              <path d="M79.34 17.1501C79.1799 18.7501 79.0699 19.7101 79.0699 19.7101C79.0699 35.9701 45.9399 98.2801 0 103.46C8.32996 85.46 13.55 54.2401 4.38 0L79.8201 0C79.8201 0 79.23 6.71008 79.34 17.1501L79.34 17.1501Z" transform="translate(24.100098 0)" id="SHADOW-3" fill="#CB7C2D" fill-rule="evenodd" stroke="none" />
+            </g>
+            <path d="M139.104 105.15C139.014 106.05 138.953 106.56 138.953 106.56C140.364 118.68 91.9535 167.11 53.7335 171.56C36.5735 173.56 11.0436 124.02 6.84351 107.24C0.723511 82.78 0.383545 58.65 0.0734863 49.87C-0.426514 35.64 0.473511 0 41.4735 0C82.7335 0 105.933 90.85 136.354 72.49C136.914 71.23 142.124 60.55 155.354 69C165.114 75.26 150.364 98.35 139.104 105.15L139.104 105.15Z" transform="translate(16.836426 51.47101)" id="FACE" fill="#D49046" fill-rule="evenodd" stroke="none" />
+            <path d="M8673.9 37298.3L8640.94 38642.9L8705.58 39046.4" transform="translate(52.619995 124.25104)" id="Polyline" fill="none" fill-rule="evenodd" stroke="#40465C" stroke-width="4.44" stroke-linecap="round" stroke-linejoin="round" />
+            <g id="GLASSES" transform="translate(0 108.25104)">
+              <path d="M0 25.11C0 11.2421 11.2421 0 25.11 0C38.9779 0 50.22 11.2421 50.22 25.11C50.22 38.9779 38.9779 50.22 25.11 50.22C11.2421 50.22 0 38.9779 0 25.11Z" id="Circle" fill="none" fill-rule="evenodd" stroke="#6464C8" stroke-width="7.4" />
+              <path d="M0 25.11C0 11.2421 11.2421 0 25.11 0C38.9779 0 50.22 11.2421 50.22 25.11C50.22 38.9779 38.9779 50.22 25.11 50.22C11.2421 50.22 0 38.9779 0 25.11Z" transform="translate(66.96997 0)" id="Circle" fill="none" fill-rule="evenodd" stroke="#6464C8" stroke-width="7.4" />
+              <path d="M0 1L16.75 1" transform="translate(50.21997 24.109985)" id="Line" fill="none" fill-rule="evenodd" stroke="#6464C8" stroke-width="7.4" />
+              <path d="M0 15.4801C0 15.4801 40.38 -9.41992 57.71 3.94012" transform="translate(117.19995 8.259888)" id="Shape" fill="none" fill-rule="evenodd" stroke="#6464C8" stroke-width="7.4" />
+            </g>
+            <path d="M0 6.01C0 2.69077 2.69077 0 6.01 0C9.32923 0 12.02 2.69077 12.02 6.01C12.02 9.32923 9.32923 12.02 6.01 12.02C2.69077 12.02 0 9.32923 0 6.01Z" transform="translate(29.169922 127.19104)" id="Circle" fill="#40465C" fill-rule="evenodd" stroke="none" />
+            <path d="M0 6.01C0 2.69077 2.69077 0 6.01 0C9.32923 0 12.02 2.69077 12.02 6.01C12.02 9.32923 9.32923 12.02 6.01 12.02C2.69077 12.02 0 9.32923 0 6.01Z" transform="translate(76.92993 127.19104)" id="Circle" fill="#40465C" fill-rule="evenodd" stroke="none" />
+            <path d="M0 10.35C0 10.35 13.45 12.78 22.6899 0" transform="translate(61.359985 173.81104)" id="Shape" fill="none" fill-rule="evenodd" stroke="#40465C" stroke-width="4.44" stroke-linecap="round" stroke-linejoin="round" />
+          </g>
+        </g>
+        <g id="COMPUTER" transform="translate(0 235.93103)">
+          <path d="M563.144 308.79L123.874 308.79C109.159 308.786 96.0435 299.512 91.1343 285.64L1.38434 32.15C-1.23022 24.772 -0.0987549 16.5837 4.4187 10.1913C8.93616 3.79883 16.2769 -0.00134277 24.1044 0L466.974 0C479.537 -0.00219727 490.737 7.91565 494.924 19.76L585.924 276.63C588.542 284.019 587.403 292.219 582.872 298.616C578.341 305.013 570.983 308.807 563.144 308.79L563.144 308.79Z" transform="translate(13.669434 1.3699951)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M563.154 308.79L123.874 308.79C109.161 308.79 96.0438 299.52 91.1338 285.65L1.38379 32.16C-1.23059 24.7794 -0.0979004 16.5887 4.42139 10.1945C8.94067 3.80029 16.2837 -0.00109863 24.1138 0.00012207L467.004 0C479.581 -0.0114746 490.8 7.90588 495.004 19.76L585.944 276.64C588.562 284.03 587.423 292.231 582.889 298.627C578.355 305.023 570.994 308.814 563.154 308.79L563.154 308.79Z" transform="translate(0 15.029907)" id="Shape" fill="#E7F0FD" fill-rule="evenodd" stroke="none" />
+          <path d="M563.144 308.79L123.874 308.79C109.161 308.79 96.0438 299.52 91.1338 285.65L1.38379 32.16C-1.22998 24.781 -0.0984497 16.5922 4.41852 10.1985C8.93542 3.80481 16.2755 0.0020752 24.1038 0L466.974 0C479.536 0.000854492 490.734 7.9176 494.924 19.76L585.924 276.63C588.541 284.019 587.403 292.219 582.872 298.616C578.341 305.013 570.983 308.807 563.144 308.79L563.144 308.79Z" transform="translate(13.669983 0)" id="Shape" fill="none" fill-rule="evenodd" stroke="#96BED5" stroke-width="7.4" />
+          <path d="M130.58 173.55L0 173.55L40.99 0L171.58 0L130.58 173.55L130.58 173.55Z" transform="translate(217.09381 205.29004)" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="#96BED5" stroke-width="7.4" />
+        </g>
+        <g id="ICON" transform="translate(168.25378 10.791016)">
+          <path d="M211.87 134.19C225.61 134.19 235.09 120.78 235.09 106.68L235.09 27.75C235.094 20.3947 232.173 13.336 226.971 8.13092C221.769 2.92578 214.712 0.000915527 207.354 0L27.75 0C20.3894 -0.00268555 13.3296 2.92017 8.12488 8.12488C2.92017 13.3296 -0.00268555 20.3894 0 27.75L0 106.68C0.00256348 114.048 2.92895 121.105 8.13513 126.305C13.3414 131.506 20.4008 134.425 27.7596 134.42L133.05 134.42C158.83 134.42 172.72 175.89 172.72 175.89C172.72 175.89 181.5 134.19 211.87 134.19L211.87 134.19Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="#E5B21A" stroke-width="7.4" />
+          <path d="M0 10.36C0 4.63833 4.63833 0 10.36 0C16.0817 0 20.72 4.63833 20.72 10.36C20.72 16.0817 16.0817 20.72 10.36 20.72C4.63833 20.72 0 16.0817 0 10.36Z" transform="translate(55.820007 56.160034)" id="Circle" fill="#FFFFFF" fill-rule="evenodd" stroke="#E5B21A" stroke-width="7.4" />
+          <path d="M0 10.36C0 4.63833 4.63833 0 10.36 0C16.0817 0 20.72 4.63833 20.72 10.36C20.72 16.0817 16.0817 20.72 10.36 20.72C4.63833 20.72 0 16.0817 0 10.36Z" transform="translate(107.17999 56.840027)" id="Circle" fill="#FFFFFF" fill-rule="evenodd" stroke="#E5B21A" stroke-width="7.4" />
+          <path d="M0 10.36C0 4.63833 4.63833 0 10.36 0C16.0817 0 20.72 4.63833 20.72 10.36C20.72 16.0817 16.0817 20.72 10.36 20.72C4.63833 20.72 0 16.0817 0 10.36Z" transform="translate(158.53003 56.840027)" id="Circle" fill="#FFFFFF" fill-rule="evenodd" stroke="#E5B21A" stroke-width="7.4" />
+        </g>
+      </g>
+      <path d="M202023 2.27531e+06L202023 1.38934e+06L1.64584e+06 1.38934e+06L1.64584e+06 2.35474e+06" transform="translate(168.27002 1415.45)" id="Polyline" fill="#FFFFFF" fill-rule="evenodd" stroke="#6464C8" stroke-width="7.41" />
+      <g id="SHELF" transform="translate(278.67004 114.06995)">
+        <g id="BOOKS" transform="translate(929.88 325.59)">
+          <path d="M0 0L331.31 0L331.31 64L0 64L0 0Z" transform="translate(0 107.74997)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="#E5B21A" stroke-width="6.89" />
+          <path d="M0 0L334.62 0L334.62 25.06L0 25.06L0 0Z" transform="translate(51.869995 78.70999)" id="Rectangle" fill="#6464C8" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L334.62 0L334.62 32.86L0 32.86L0 0Z" transform="translate(20.639893 41.639984)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="#96BED5" stroke-width="6.89" />
+          <path d="M0 0L295.18 0L295.18 37.34L0 37.34L0 0Z" transform="translate(0.5699463 0)" id="Rectangle" fill="#E7F0FD" fill-rule="evenodd" stroke="none" />
+        </g>
+        <path d="M1317.43 225.62L694.91 225.62L572.28 47.05L0 47.05L0 0L596.44 0L719.07 178.56L1317.43 178.56L1317.43 225.62L1317.43 225.62Z" transform="translate(0 325.66998)" id="SHELF-2" fill="#FFFFFF" fill-rule="evenodd" stroke="#96BED5" stroke-width="6.89" />
+        <g id="PLANT" transform="translate(673.9226 311.82056)">
+          <path d="M0 0L169.45 0L169.45 13.48C169.45 60.2696 131.52 98.2 84.73 98.2L84.73 98.2C37.9404 98.2 0.0100098 60.2696 0.0100098 13.4801L0.0100098 0L0 0Z" transform="translate(33.267395 91.17944)" id="Shape" fill="#D1E2FB" fill-rule="evenodd" stroke="none" />
+          <path d="M60.1374 91.1795C60.1374 91.1795 23.4074 121.109 2.4574 96.5695C-12.7226 78.7895 47.3874 78.7695 47.3874 78.7695C47.3874 78.7695 15.6874 53.3895 25.7374 48.7695C50.4374 37.5395 64.9374 75.2995 64.9374 75.2995C64.9374 75.2995 30.9374 11.7695 60.3974 0.849487C84.6174 -8.15051 84.6174 57.3295 84.6174 57.3295C84.6174 57.3295 89.7474 30.7995 103.447 32.5095C117.147 34.2195 107.297 62.5095 107.297 62.5095C107.297 62.5095 119.297 54.3795 120.127 72.7795C120.127 72.7795 122.447 2.77948 151.797 9.44946C176.187 15.0095 143.667 62.9395 143.667 62.9395C143.667 62.9395 162.497 39.3994 179.177 46.6794C195.857 53.9594 164.177 75.7694 164.177 75.7694C164.177 75.7694 209.527 33.4094 225.957 44.7694C238.447 53.4294 206.707 74.6195 206.707 74.6195C206.707 74.6195 229.387 68.3094 234.517 79.4294C239.647 90.5494 202.687 91.1594 202.687 91.1594L60.1374 91.1795Z" id="Shape" fill="#91882A" fill-rule="evenodd" stroke="none" />
+          <path d="M0 58.6665C0 58.6665 1.31006 -1.69348 24 0.036499C46.6899 1.76648 15 58.6665 15 58.6665L0 58.6665Z" transform="translate(79.40741 32.51294)" id="Shape" fill="#CBC253" fill-rule="evenodd" stroke="none" />
+          <path d="M61.6766 44.7713C61.6766 44.7713 38.8965 -12.2287 7.99658 2.40134C-22.1734 16.6513 42.7466 44.7713 42.7466 44.7713L61.6766 44.7713Z" transform="translate(17.730835 46.40811)" id="Shape" fill="#CBC253" fill-rule="evenodd" stroke="none" />
+          <path d="M0 46.7672C0 46.7672 20.45 -4.55279 52.9 0.327209C85.3501 5.20721 12.9 46.7672 12.9 46.7672L0 46.7672Z" transform="translate(126.277405 44.41223)" id="Shape" fill="#CBC253" fill-rule="evenodd" stroke="none" />
+          <path d="M0 18.8849C0 18.8849 63.47 -13.1151 74.9 6.19495C86.3301 25.5049 0 18.8849 0 18.8849L0 18.8849Z" transform="translate(159.6474 72.294495)" id="Shape" fill="#CBC253" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="DOCUMENTS" transform="translate(79.649994 0)">
+          <path d="M0 0L86.94 0L86.94 325.66L0 325.66L0 0Z" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="#96BED5" stroke-width="6.89" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(23.48999 111.89001)" id="Rectangle" fill="#96BED5" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(23.48999 139.37)" id="Rectangle" fill="#96BED5" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(23.48999 166.85)" id="Rectangle" fill="#96BED5" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(23.48999 194.34)" id="Rectangle" fill="#96BED5" fill-rule="evenodd" stroke="none" />
+          <path d="M0 19.63C0 8.78865 8.78865 0 19.63 0C30.4713 0 39.26 8.78865 39.26 19.63C39.26 30.4713 30.4713 39.26 19.63 39.26C8.78865 39.26 0 30.4713 0 19.63Z" transform="translate(23.839996 249.78998)" id="Circle" fill="#96BED5" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L86.94 0L86.94 325.66L0 325.66L0 0Z" transform="translate(94.57001 0)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="#E5B21A" stroke-width="6.89" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(118.07001 111.89001)" id="Rectangle" fill="#E5B21A" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(118.07001 139.37)" id="Rectangle" fill="#E5B21A" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(118.07001 166.85)" id="Rectangle" fill="#E5B21A" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(118.07001 194.34)" id="Rectangle" fill="#E5B21A" fill-rule="evenodd" stroke="none" />
+          <path d="M0 19.63C0 8.78865 8.78865 0 19.63 0C30.4713 0 39.26 8.78865 39.26 19.63C39.26 30.4713 30.4713 39.26 19.63 39.26C8.78865 39.26 0 30.4713 0 19.63Z" transform="translate(118.40997 249.78998)" id="Circle" fill="#E5B21A" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L86.94 0L86.94 325.66L0 325.66L0 0Z" transform="translate(189.14996 0)" id="Rectangle" fill="#E7F0FD" fill-rule="evenodd" stroke="#96BED5" stroke-width="6.89" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(212.64001 110.51)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(212.64001 137.98999)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(212.64001 165.47)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(212.64001 192.95999)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M0 19.63C0 8.78865 8.78865 0 19.63 0C30.4713 0 39.26 8.78865 39.26 19.63C39.26 30.4713 30.4713 39.26 19.63 39.26C8.78865 39.26 0 30.4713 0 19.63Z" transform="translate(212.98999 248.40997)" id="Circle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L86.94 0L86.94 325.66L0 325.66L0 0Z" transform="translate(283.71997 0)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="#6464C8" stroke-width="6.89" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(307.21997 111.89001)" id="Rectangle" fill="#6464C8" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(307.21997 139.37)" id="Rectangle" fill="#6464C8" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(307.21997 166.85)" id="Rectangle" fill="#6464C8" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L39.95 0L39.95 10.27L0 10.27L0 0Z" transform="translate(307.21997 194.34)" id="Rectangle" fill="#6464C8" fill-rule="evenodd" stroke="none" />
+          <path d="M0 19.63C0 8.78865 8.78865 0 19.63 0C30.4713 0 39.26 8.78865 39.26 19.63C39.26 30.4713 30.4713 39.26 19.63 39.26C8.78865 39.26 0 30.4713 0 19.63Z" transform="translate(307.56 249.78998)" id="Circle" fill="#6464C8" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
