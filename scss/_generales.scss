@@ -3,35 +3,42 @@
     padding: 0;
 }
 
-$fuente-lora: 'Lora', serif;
-$fuente-lato:'Lato', sans-serif;
-$fuente-open:'Open Sans', sans-serif;
-$fuente-playfair:'Playfair Display', serif;
+$fuente-metro:'Metrophobic', sans-serif;
+$fuente-cairo:'Cairo', sans-serif;
+$fuente-resto:'Telex', sans-serif;
 $colorcajas: #F9CDAD;
 $colortexto: white;
 $colortexto: #121212;
-$color-azul:#0C5CED;
+$color-azul:#083892;
 $color-celeste:#0C9EF7;
 $color-celeste-claro:#00C6E0;
 $color-amarillo:#FAB416;
 $color-naranja:#F07D00;
 
 body {
-    background-color: #048ABF
+    background-color: #a2cbdb
 ;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: $fuente-playfair;
+h1 {
+    font-family: $fuente-metro;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: $fuente-cairo;
 }
 
 p, a, li, td {
-    font-family: $fuente-open;
+    font-family: $fuente-resto;
+}
+
+a {
+    text-decoration: none;
+    // color: black;
 }
 
 .header {
     background-color: #048ABF;
-    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;      
@@ -39,13 +46,14 @@ p, a, li, td {
         .header__titulo {
         font-size: 40px;
         align-self: center;
-        margin: 0 0 30px 0;
+        margin: 50px 0 30px 0;
+        height: 15vh;
         }
 
 
         .nav {
-    background-color: #293241;
-    height: 80px;
+    background-color: #121212;
+    height: 10vh;
     color: white; 
     width: 100%;
     // position: fixed;
@@ -61,7 +69,6 @@ p, a, li, td {
 
             .nav__logo {
             font-size: 1.5em;
-            font-weight: 900;
             }
 
             .nav__label, .nav__input {
@@ -154,6 +161,13 @@ p, a, li, td {
             .nav__div__submenu:hover .nav__div__submenu--contenido {
                 display: block;
             }
+        }
+
+        .header__fondo {
+            background-image:url(../media/boysLearning-min.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: 70vh;
         }
 }
 
