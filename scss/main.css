@@ -868,6 +868,9 @@ a {
     margin-bottom: auto;
     height: 500px;
     width: 600px; }
+    .main__contacto .main__contacto__div:hover {
+      background: -webkit-linear-gradient(to bottom, #0C9EF7, #0C5CED);
+      background: linear-gradient(to bottom, #0C9EF7, #0C5CED); }
     .main__contacto .main__contacto__div .main__contacto__div--titulo {
       margin-bottom: 20px;
       margin-top: 10px;
