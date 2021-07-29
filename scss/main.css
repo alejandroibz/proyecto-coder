@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 * {
   margin: 0;
@@ -106,7 +107,10 @@ a {
     background-image: url(../media/boysLearning-min.jpg);
     background-size: cover;
     background-position: center center;
-    height: 70vh; }
+    height: 70vh;
+    box-shadow: 0px 9px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 9px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 9px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .footer {
   background-color: #121212;
@@ -415,100 +419,154 @@ a {
     .section__index .section__index__article7 .section__index__article7--svg {
       height: 65vh; }
 
-.section__pacientes {
-  display: grid;
-  justify-content: center; }
-  .section__pacientes .section__pacientes--titulo {
-    grid-column: 1/9;
-    grid-row: 1/2;
-    justify-self: center;
-    color: black;
-    font-size: 40px;
-    margin: 30px 0; }
-  .section__pacientes .section__pacientes__art1 {
-    display: grid;
-    grid-column: 1/9;
-    grid-row: 2/4;
-    padding: 10px;
-    box-shadow: 0px 0px 15px 2px #3f3f3f;
-    background-color: #0C9EF7;
-    color: black;
-    border-radius: 10px; }
-    .section__pacientes .section__pacientes__art1 .section__pacientes__art1--titulo {
-      grid-column: 1/5;
-      grid-row: 2/4;
-      align-self: center;
-      margin-left: 100px;
-      font-size: 30px;
-      width: 400px;
-      color: #000000; }
-    .section__pacientes .section__pacientes__art1 .section__pacientes__art1--lista {
-      grid-column: 5/9;
-      grid-row: 2/4;
-      align-self: center; }
-  .section__pacientes .section__pacientes__art2 {
-    display: grid;
-    grid-column: 1/9;
-    grid-row: 4/6;
-    box-shadow: 0px 0px 15px 2px #3f3f3f;
-    background-color: #0C9EF7;
-    color: black;
-    margin-top: 30px;
-    border-radius: 10px; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--img {
-      width: 300px; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div {
-      grid-column: 1/5;
-      grid-row: 4/6;
-      width: 500px; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div--titulo {
-      font-size: 50px;
-      margin-left: 200px;
-      color: #000000; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div--subtitulo {
-      margin-left: 80px;
-      margin-top: 15px; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div--parrafo {
-      margin-left: 50px;
-      margin-top: 30px;
-      margin-bottom: 20px;
-      line-height: 2; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--img {
-      width: 400px;
-      height: 100%;
-      grid-column: 5/9;
-      grid-row: 4/6;
-      margin-left: 20px;
-      border-radius: 10px; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div--lista {
-      list-style: none;
-      color: #862424; }
-    .section__pacientes .section__pacientes__art2 .section__pacientes__art2--div--lista li {
-      margin-bottom: 20px;
-      width: 400px;
-      margin-left: 50px;
-      color: black;
-      line-height: 2; }
-  .section__pacientes .section__pacientes__art3 {
-    grid-column: 1/9;
-    grid-row: 6/8;
+.section__ptes {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  .section__ptes .section__ptes--titulo {
     text-align: center;
-    margin-top: 30px;
-    box-shadow: 0px 0px 15px 2px #3f3f3f;
-    background-color: #0C9EF7;
-    color: black;
-    margin-bottom: 20px;
-    border-radius: 10px; }
-    .section__pacientes .section__pacientes__art3 .section__pacientes__art3--titulo {
-      font-size: 30px;
-      color: #000000;
-      margin-top: 10px; }
-    .section__pacientes .section__pacientes__art3 .section__pacientes__art3--parrafo {
-      margin-top: 10px;
-      width: 700px;
-      margin-left: 60px;
-      margin-bottom: 30px;
-      line-height: 2; }
+    font-size: 2.5rem;
+    margin-bottom: 2rem; }
+  .section__ptes .ptes__article--consulta {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    width: 100%; }
+    .section__ptes .ptes__article--consulta .ptes__article--consulta--div {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 0 2rem; }
+      .section__ptes .ptes__article--consulta .ptes__article--consulta--div .ptes__article--consulta--div--titulo {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem; }
+      .section__ptes .ptes__article--consulta .ptes__article--consulta--div .ptes__article--consulta--div--parrafo {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        font-size: 1.2rem; }
+    .section__ptes .ptes__article--consulta .ptes__article--consulta--div2 {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 0 2rem; }
+      .section__ptes .ptes__article--consulta .ptes__article--consulta--div2 .ptes__article--consulta--div2--titulo {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem; }
+      .section__ptes .ptes__article--consulta .ptes__article--consulta--div2 .ptes__article--consulta--div2--parrafo {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        font-size: 1.2rem; }
+      .section__ptes .ptes__article--consulta .ptes__article--consulta--div2 .ptes__article--consulta--div2--lista {
+        line-height: 1.5;
+        margin: 1rem 1rem;
+        font-size: 1.2rem; }
+  .section__ptes .ptes__article--señales {
+    background: -webkit-linear-gradient(to bottom, #0C9EF7, #0C5CED);
+    background: linear-gradient(to bottom, #0C9EF7, #0C5CED); }
+    .section__ptes .ptes__article--señales .ptes__article--señales--h3 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem; }
+    .section__ptes .ptes__article--señales .ptes__article--señales--h4 {
+      font-size: 1.5rem;
+      margin: 0 0 2rem 2rem; }
+    .section__ptes .ptes__article--señales .listas__señales {
+      display: flex;
+      flex-direction: row; }
+      .section__ptes .ptes__article--señales .listas__señales .ptes__article--señales--ul {
+        margin: 0 4rem 2rem 5rem; }
+        .section__ptes .ptes__article--señales .listas__señales .ptes__article--señales--ul .ptes__article--señales--li {
+          margin: 0 0 1rem 0;
+          font-size: 1.2rem; }
+          .section__ptes .ptes__article--señales .listas__señales .ptes__article--señales--ul .ptes__article--señales--li .ptes__article--señales--li--h5 {
+            font-size: 1.2rem; }
+
+.section__ptes2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 3rem 0; }
+  .section__ptes2 .ptes2__article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    background: -webkit-linear-gradient(to top, #0C9EF7, #0C5CED);
+    background: linear-gradient(to top, #0C9EF7, #0C5CED);
+    height: 65vh; }
+    .section__ptes2 .ptes2__article .ptes2__article--div {
+      width: 50%;
+      margin: 3rem 2rem 0 2rem; }
+      .section__ptes2 .ptes2__article .ptes2__article--div .ptes2__article--div--titulo {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 2rem; }
+      .section__ptes2 .ptes2__article .ptes2__article--div .ptes2__article--div--parrafo {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 1rem; }
+    .section__ptes2 .ptes2__article .ptes2__article--div2 {
+      width: 50%;
+      margin: 3rem 2rem 0 2rem; }
+      .section__ptes2 .ptes2__article .ptes2__article--div2 .ptes2__article--div2--titulo {
+        text-align: center;
+        margin: 0 0.5rem 2rem 0;
+        font-size: 2rem; }
+      .section__ptes2 .ptes2__article .ptes2__article--div2 .ptes2__article--div2--ul {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin: 0 0 0 4rem; }
+  .section__ptes2 .ptes2__article2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 2rem 3rem; }
+    .section__ptes2 .ptes2__article2 .ptes2__article2--div {
+      width: 50%; }
+      .section__ptes2 .ptes2__article2 .ptes2__article2--div .ptes2__article2--h4 {
+        text-align: center;
+        font-size: 3rem; }
+      .section__ptes2 .ptes2__article2 .ptes2__article2--div .ptes2__article2--h5 {
+        margin: .8rem .5rem;
+        font-size: 1.5rem; }
+      .section__ptes2 .ptes2__article2 .ptes2__article2--div .ptes2__article2--parrafo {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        font-size: 1.2rem; }
+      .section__ptes2 .ptes2__article2 .ptes2__article2--div .ptes2__article2--ul {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        font-size: 1.2rem; }
+    .section__ptes2 .ptes2__article2 .ptes2__article2--img {
+      width: 550px;
+      height: 400px;
+      border-radius: 15px;
+      margin-right: 2rem; }
+  .section__ptes2 .ptes2__article3 {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 0 0;
+    background-color: #121212;
+    color: white; }
+    .section__ptes2 .ptes2__article3 .ptes2__article3--h4 {
+      font-size: 3rem;
+      text-align: center;
+      margin: 2rem 0;
+      color: #0C5CED; }
+    .section__ptes2 .ptes2__article3 .ptes2__article3--parrafo {
+      line-height: 1.5;
+      font-size: 1.2rem;
+      margin: 0 2rem 2rem 2rem; }
+    .section__ptes2 .ptes2__article3 .ptes2__article3--h5 {
+      font-size: 1.8rem;
+      margin: 0 0 1rem 2rem;
+      color: #0C5CED; }
+    .section__ptes2 .ptes2__article3 .ptes2__article3--lista {
+      margin: 0 2rem 2rem 3rem;
+      font-size: 1.2rem;
+      line-height: 1.5;
+      width: 90%; }
 
 .main__fono {
   display: flex;
@@ -545,7 +603,10 @@ a {
       width: 50%;
       margin-top: 5rem; }
       .section__fono .section__fono__article .section__fono__article--div .section__fono__div--titulo {
-        margin-left: 2rem; }
+        margin-left: 2rem;
+        margin-right: 4rem;
+        font-size: 30px;
+        text-align: center; }
       .section__fono .section__fono__article .section__fono__article--div .section__fono__div--parrafo {
         margin: 1rem 2rem 0 2rem;
         font-size: 20px;
@@ -799,7 +860,8 @@ a {
     grid-row: 1/9;
     text-align: center;
     box-shadow: 0px 0px 15px 2px #3f3f3f;
-    background-color: #0C9EF7;
+    background: -webkit-linear-gradient(to top, #0C9EF7, #0C5CED);
+    background: linear-gradient(to top, #0C9EF7, #0C5CED);
     color: black;
     border-radius: 10px;
     margin-top: 130px;
