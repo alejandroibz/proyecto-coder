@@ -100,7 +100,7 @@ $color-naranja:#F07D00;
 }
 
 
-@media (max-width: 500x) {
+@media (max-width: 500px) {
 
     .main__contacto {
     display: grid;
@@ -117,7 +117,7 @@ $color-naranja:#F07D00;
     background-color: #323232;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    margin: 2rem 0 0 1.1rem;
+    margin: 2rem 0 0 2rem;
     
         .contacto__form--select {
             border: none;
