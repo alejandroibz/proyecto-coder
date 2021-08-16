@@ -20,6 +20,8 @@
     <meta name="description" content="Mi nombre es Virginia Perlo, soy fonoaudiologa recibida y trabajando actualmente en la ciudad de Cordoba, Argentina.">
     <!-- Palabras Clave -->
     <meta name="keywords" content="fonoaudiologia, salud, virginia perlo, profesional, cordoba, argentina">
+    <!-- Efectos CSS -->
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
     <!-- Titulo -->
     <title>Fonoaudiologa Virginia Perlo / Inicio </title>
     <link rel="stylesheet" href="scss/main.css">
@@ -44,13 +46,15 @@
                 </div>
             </div>
         </nav>
-        <h1 class="header__titulo">FONOAUDIÓLOGA VIRGINIA PERLO</h1>
         <div class="header__fondo">
+            <div class="contenedor__h1">
+                <h1 class="header__titulo">FONOAUDIÓLOGA VIRGINIA PERLO</h1>
+            </div>
         </div>
     </header>
     <main class="main__index">
         <div class="main__index__div">
-            <h3 class="main__index__titulo">SOBRE MÍ</h3>
+            <h3 class="main__index__titulo" data-aos="fade-down" data-aos-duration="2500">SOBRE MÍ</h3>
             <p class="main__index__parrafo">Mi nombre es Virginia Emilia Perlo, soy fonoaudiologa recibida el
                 el 04/10/2020 en la
                 Universidad
@@ -61,12 +65,11 @@
                 poder ver el progreso, estar ahí para acompañarlos, y ver la felicidad de mis pacientes
                 y sus seres cercanos al rehabilitar ciertos aspectos de su comunicación.
             </p>
-            <p class="main__index__parrafo"> Estoy trabajando en el sanatorio "XXX" en el centro de Villa
-                Allende.
-                (días tal tal y entre horas tal tal) El resto de dias atiendo turnos particulares en Cordoba Capital, en
+            <p class="main__index__parrafo"> Estoy trabajando para la empresa "Global Care" realizando cobertura a domicilio de lunes a viernes durante la mañana
+                (de 8am a 13pm). <br>El resto de dias atiendo turnos particulares en Cordoba Capital, en
                 el
                 barrio
-                de Nueva Córdoba.
+                de Nueva Córdoba, únicamente por la tarde.
             </p>
         </div>
         <img src="media/fonoSonriendo-min.jpg" alt="Fonoaudiologa Virginia Perlo" class="main__index__img">
@@ -74,16 +77,12 @@
     <section class="section__index">
         <div class="section__index__div">
             <article class="section__index__article2">
-                <h3 class="section__index__article2--titulo">ATENCION A:</h3>
-                <ul class="section__index__article2--lista">
-                    <li class="section__index__article2--lista--li">Neonatos</li>
-                    <li class="section__index__article2--lista--li">Niños</li>
-                    <li class="section__index__article2--lista--li">Adultos</li>
-                    <li class="section__index__article2--lista--li">Pacientes con discapacidad</li>
-                </ul>
+                <h3 class="section__index__article2--titulo">ÁREAS DE ACTUACIÓN DE LA FONOAUDIOLOGÍA</h3>
+                <p class="section__index__article2--parrafo">Las funciones de un fonoaudiólogo pueden ser muy diferentes ya que dependerán del área a la que se dedique y de las
+                dificultades o trastornos del paciente.</p>
                 <img src="media/fonoaudiologa-min.png" class="section__index__article2--img" alt="imagen fonoaudiologa">
-                <p class="section__index__article2--parrafo">Información más detallada en la sección de <a
-                        href="paginas/pacientes.html" class="section__index__article2--enlace">pacientes</a></p>
+                <p class="section__index__article2--parrafo2">Información más detallada en la sección de <a
+                        href="paginas/fonoaudiologia.html" class="section__index__article2--enlace">Fonoaudiologia</a></p>
             </article>
             <article class="section__index__article3">
                 <h3 class="section__index__article3--titulo">COVID-19</h3>
@@ -96,8 +95,8 @@
                 <img src="media/chicaBarbijo-min.jpg" class="section__index__article3--img" alt="mujer con barbijo - covid19">
             </article>
         </div>
-        <div class="section__index__div2">
-            <article class="section__index__article4">
+        <div class="section__index__div2" data-aos="fade-right" data-aos-duration="2500">
+            <article class="section__index__article4" >
                 <i class="fas fa-assistive-listening-systems"></i>
                 <h3 class="section__index__article4--titulo">OBJETIVOS:</h3>
                 <p class="section__index__article4--parrafo">Poder rehabilitar la comunicación de mis pacientes con su entorno.
@@ -109,6 +108,7 @@
             <article class="section__index__article5">
                 <i class="fas fa-map-marked-alt"></i>
                 <h3 class="section__index__article5--titulo">MODALIDAD:</h3>
+                <p class="section__index__article5--parrafo">Las distintas modalidades con las que podemos trabajar son las siguientes:</p>
                 <ul class="section__index__article5--lista">
                     <li class="section__index__article5--lista--li">Online</li>
                     <li class="section__index__article5--lista--li">A domicilio</li>
@@ -164,6 +164,11 @@
         </div>
     
     </footer>
+    <!-- SCRIPTS AOS -->
+    <script src="aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -4,305 +4,800 @@ $color-celeste-claro:#00C6E0;
 $color-amarillo:#FAB416;
 $color-naranja:#F07D00;
 
-.main__contacto {
-    display: grid;
-    
 
-    .contacto__form {
+.contacto__main {
     display: flex;
-    flex-direction: column;
-    grid-column:1/6;
-    grid-row: 1/9;
-    width: 500px;
-    border-radius: 10px;
-    padding: 40px 20px;
-    background-color: #323232;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    margin: 80px 0 0 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
-        .contacto__form--select {
-            border: none;
-        }       
+    background-image: url(../media/social-media-1795578_1920.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 99vw;
 
-        .contacto__form--label {
-            color: $color-celeste;
-        }
-
-        .contacto__form--input, .contacto__form--textarea {
-            margin: 10px 0;
-            
-            padding: 8px;
-            border: none;
-            border-radius: 15px;
-            border-bottom: 1px solid #BFB063
-        }
-
-        .contacto__form--input:focus, .contacto__form--textarea:focus {
-            outline: none;
-        }
-
-        .contacto__form--textarea {
-            font-family: 'Open Sans', sans-serif;
-        }
-            
-    }
-
-    .main__contacto__div {
-        grid-column:6/11 ;
-        grid-row:1/9;
-        text-align: center;
-        box-shadow: 0px 0px 15px 2px #3f3f3f;
-        background: -webkit-linear-gradient(to top, #0C9EF7, #0C5CED); 
-        background: linear-gradient(to top, #0C9EF7, #0C5CED); 
-        color: rgb(0, 0, 0);
-        border-radius: 10px;
-        margin-top: 130px;
-        margin-bottom: auto;
-        height: 500px;
-        width: 600px;
-
-        &:hover {
-            background: -webkit-linear-gradient(to bottom, #0C9EF7, #0C5CED); 
-            background: linear-gradient(to bottom, #0C9EF7, #0C5CED); 
-        }
-
-        .main__contacto__div--titulo {
-            margin-bottom: 20px;
-            margin-top: 10px;
-            color: #000000;
-            font-size: 35px;
-        }
-
-        .main__contacto__div--parrafo {
-            margin-bottom: 20px;
-            width: 500px;
-            text-align: left;
-            margin:3rem 0 1rem 3rem ;
-            line-height: 2;
-        }
-
-        .main__contacto__div--lista {
-            text-align: left;
-            margin: 3rem 0 3rem 4rem;
-        }
-    }
-
-}
-
-
-.section__contacto {
-    .section__contacto__iframe {
-        grid-column:1/11 ;
-        grid-row:9/14 ;
-        margin: 4rem 0 2rem 4rem;
-    }
-}
-
-
-@media (max-width: 500px) {
-
-    .main__contacto {
-    display: grid;
     
 
-    .contacto__form {
-    display: flex;
-    flex-direction: column;
-    grid-column:1/11;
-    grid-row: 1/9;
-    width: 80vw;
-    border-radius: 0;
-    padding: 40px 20px;
-    background-color: #323232;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    margin: 2rem 0 0 2rem;
-    
-        .contacto__form--select {
-            border: none;
-        }       
-
-        .contacto__form--label {
-            color: $color-celeste;
-        }
-
-        .contacto__form--input, .contacto__form--textarea {
-            margin: 10px 0;
-            
-            padding: 8px;
-            border: none;
-            border-radius: 15px;
-            border-bottom: 1px solid #BFB063
-        }
-
-        .contacto__form--input:focus, .contacto__form--textarea:focus {
-            outline: none;
-        }
-
-        .contacto__form--textarea {
-            font-family: 'Open Sans', sans-serif;
-        }
-            
-    }
-
-    .main__contacto__div {
-        grid-column:1/11 ;
-        grid-row:9/18;
-        text-align: center;
-        box-shadow: 0px 0px 15px 2px #3f3f3f;
-        background: -webkit-linear-gradient(to top, #0C9EF7, #0C5CED); 
-        background: linear-gradient(to top, #0C9EF7, #0C5CED); 
-        color: rgb(0, 0, 0);
-        border-radius: 0;
-        margin: 3rem 0;
-        height: auto;
+    .contacto__main--info {
         width: 100vw;
-        padding-bottom: 2rem;
+        height: 80vh;
+        color: white;
+        padding: 2rem;
+        background-color: rgba(54, 49, 49, 0.616);
 
-        &:hover {
-            background: -webkit-linear-gradient(to bottom, #0C9EF7, #0C5CED); 
-            background: linear-gradient(to bottom, #0C9EF7, #0C5CED); 
+        .info__h3 {
+            font-size: 2.5rem;
+            text-align: center;
+            
         }
 
-        .main__contacto__div--titulo {
-            margin-bottom: 20px;
-            margin-top: 10px;
-            color: #000000;
-            font-size: 35px;
+        .info__h4 {
+            font-size: 2.5rem;
+            text-align: center;
+            border-bottom: 3px solid $color-azul;
         }
 
-        .main__contacto__div--parrafo {
-            margin: 1rem 1rem 0 1rem;
-            line-height: 1.5;
-            font-size: 1.2rem;
-            width: 90vw;
+        .info__h5 {
+            font-size: 2rem;
+            color:white;
         }
 
-        .main__contacto__div--lista {
-            margin: 3rem 1rem 0 2.4rem;
-            line-height: 1.5;
-            font-size: 1.2rem;
-        }
-    }
-
-}
-
-
-.section__contacto {
-    .section__contacto__iframe {
-        grid-column:1/11 ;
-        grid-row:18/23 ;
-        margin: 4rem 0 2rem 0;
-        width: 100vw;
-    }
-}
-
-
-
-}
-
-
-
-@media (max-width: 1050px) and (min-width: 501px) {
-
-    .main__contacto {
-    display: grid;
-    
-
-    .contacto__form {
-    display: flex;
-    flex-direction: column;
-    grid-column:1/11;
-    grid-row: 1/9;
-    width: 80vw;
-    border-radius: 0;
-    padding: 40px 20px;
-    background-color: #323232;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    margin: 2rem 0 0 1.1rem;
-    
-        .contacto__form--select {
-            border: none;
+        .info__enlace {
             font-size: 1.5rem;
-        }       
-
-        .contacto__form--label {
-            color: $color-celeste;
-            font-size: 2rem;
+            color: white;
         }
 
-        .contacto__form--input, .contacto__form--textarea {
-            margin: 10px 0;
-            font-size: 1.5rem;
-            padding: 8px;
-            border: none;
-            border-radius: 15px;
-            border-bottom: 1px solid #BFB063
-        }
-
-        .contacto__form--input:focus, .contacto__form--textarea:focus {
-            outline: none;
-        }
-
-        .contacto__form--textarea {
-            font-family: 'Open Sans', sans-serif;
-        }
+        .contacto__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+            padding-bottom: 2rem;
+            background-color: rgba(54, 49, 49, 0.876);
+            border-radius: 2rem;
             
-    }
+            
 
-    .main__contacto__div {
-        grid-column:1/11 ;
-        grid-row:9/18;
-        text-align: center;
-        box-shadow: 0px 0px 15px 2px #3f3f3f;
-        background: -webkit-linear-gradient(to top, #0C9EF7, #0C5CED); 
-        background: linear-gradient(to top, #0C9EF7, #0C5CED); 
-        color: rgb(0, 0, 0);
-        border-radius: 0;
-        margin: 3rem 0;
-        height: auto;
-        width: 100vw;
-        padding-bottom: 2rem;
+            
 
-        &:hover {
-            background: -webkit-linear-gradient(to bottom, #0C9EF7, #0C5CED); 
-            background: linear-gradient(to bottom, #0C9EF7, #0C5CED); 
+        .info__h5--redes {
+            color: $color-azul;
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            
         }
 
-        .main__contacto__div--titulo {
-            margin-bottom: 20px;
-            margin-top: 10px;
-            color: #000000;
-            font-size: 3.5rem;
+        .info__enlace {
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
         }
 
-        .main__contacto__div--parrafo {
-            margin: 1rem 1rem 0 1rem;
-            line-height: 1.5;
-            font-size: 2rem;
-            width: 90vw;
+        .redes--logos {
+            display: flex;
+            flex-direction:row;
         }
 
-        .main__contacto__div--lista {
-            margin: 3rem 1rem 0 2.8rem;
-            line-height: 1.5;
-            font-size: 2rem;
+        .redes--enlace {
+            color: white;
+            text-decoration: none;
+
+            .fa-facebook-square {
+                font-size: 45px;
+                color: #3b5998;
+                margin-right: 30px;
+            }
+
+            .fa-instagram {
+                font-size: 45px;
+                color:#E1306C ;
+                margin-right: 30px;
+            }
+
+            .fa-twitter {
+                font-size: 45px;
+                color: #00acee;
+                margin-right: 30px;
+            }
+
+            .fa-linkedin-in {
+                font-size: 45px;
+                color: #2867B2;
+                margin-right: 30px;
+            }
         }
+        }
+
+        
     }
 
 }
-
 
 .section__contacto {
     .section__contacto__iframe {
-        grid-column:1/11 ;
-        grid-row:18/23 ;
-        margin: 4rem 0 2rem 0;
-        width: 100vw;
+        width: 95vw;
+        margin:1rem 0 0 1.5rem;
     }
 }
 
+// phone portrait (iphone 5 o SE)
+@media (max-width: 320px) {
+
+    html {
+        font-size: 10px;
+    
+    }
+
+    .contacto__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../media/social-media-1795578_1920.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    
+
+    .contacto__main--info {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        padding: 0;
+        background-color: rgba(54, 49, 49, 0.616);
+
+        .info__h3 {
+            font-size: 2rem;
+            text-align: center;
+            margin: 2rem 0 1rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h4 {
+            font-size: 2rem;
+            text-align: center;
+            border-bottom: none;
+            margin:0 0 2rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h5 {
+            font-size: 2rem;
+            color:white;
+            padding: 0 2rem;
+        }
+
+        .info__enlace {
+            font-size: 1.5rem;
+            color: white;
+            margin: 0 0 2rem 0;
+            padding: 0 3rem;
+        }
+
+        .contacto__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5rem 0 0 3rem;
+            padding-bottom: 2rem;
+            background-color: rgba(54, 49, 49, 0.876);
+            border-radius: 2rem;
+            width: 80vw;
+            
+            
+
+            
+
+        .info__h5--redes {
+            color: $color-azul;
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            
+        }
+
+        .info__enlace {
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .redes--logos {
+            display: flex;
+            flex-direction:row;
+            margin-left: 3rem;
+        }
+
+        .redes--enlace {
+            color: white;
+            text-decoration: none;
+
+            .fa-facebook-square {
+                font-size: 3rem;
+                color: #3b5998;
+                margin-right: 30px;
+            }
+
+            .fa-instagram {
+                font-size: 3rem;
+                color:#E1306C ;
+                margin-right: 30px;
+            }
+
+            .fa-twitter {
+                font-size: 3rem;
+                color: #00acee;
+                margin-right: 30px;
+            }
+
+            .fa-linkedin-in {
+                font-size:3rem;
+                color: #2867B2;
+                margin-right: 30px;
+            }
+        }
+        }
+
+        
+    }
+
+    }
+
+    .section__contacto {
+        .section__contacto__iframe {
+            width: 100vw;
+            margin:0;
+            height: 50vh;
+        }
+    }
+}
+
+
+// Phone landscape + portrait (iphone x)
+@media (min-width: 321px) and (max-width: 480px) {
+
+    html {
+        font-size: 10px;
+    
+    }
+
+    .contacto__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../media/social-media-1795578_1920.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    
+
+    .contacto__main--info {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        padding: 0;
+        background-color: rgba(54, 49, 49, 0.616);
+
+        .info__h3 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 4rem 0 1rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h4 {
+            font-size: 2.5rem;
+            text-align: center;
+            border-bottom: none;
+            margin:2rem 0 4rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h5 {
+            font-size: 2.5rem;
+            color:white;
+            padding: 0 2rem;
+        }
+
+        .info__enlace {
+            font-size: 2rem;
+            color: white;
+            margin: 0 0 2rem 0;
+            padding: 0 3rem;
+        }
+
+        .contacto__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5rem 0 0 3rem;
+            padding-bottom: 2rem;
+            background-color: rgba(54, 49, 49, 0.876);
+            border-radius: 2rem;
+            width: 85vw;
+            height: 20vh;
+            
+            
+
+            
+
+        .info__h5--redes {
+            color: $color-azul;
+            font-size: 3rem;
+            margin: 2rem 0 1rem 0;
+            
+        }
+
+        .info__enlace {
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .redes--logos {
+            display: flex;
+            flex-direction:row;
+            margin: 2rem 0 0 3rem;
+        }
+
+        .redes--enlace {
+            color: white;
+            text-decoration: none;
+
+            .fa-facebook-square {
+                font-size: 4rem;
+                color: #3b5998;
+                margin-right: 30px;
+            }
+
+            .fa-instagram {
+                font-size: 4rem;
+                color:#E1306C ;
+                margin-right: 30px;
+            }
+
+            .fa-twitter {
+                font-size: 4rem;
+                color: #00acee;
+                margin-right: 30px;
+            }
+
+            .fa-linkedin-in {
+                font-size:4rem;
+                color: #2867B2;
+                margin-right: 30px;
+            }
+        }
+        }
+
+        
+    }
+
+    }
+
+    .section__contacto {
+        .section__contacto__iframe {
+            width: 100vw;
+            margin:0;
+            height: 50vh;
+        }
+    }
+}
+
+// Small tablet portrait con aprox 800 de Height
+@media (min-width: 481px) and (max-width: 600px)  {
+    
+    html {
+        font-size: 11px;
+    
+    }
+
+    .contacto__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../media/social-media-1795578_1920.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    
+
+    .contacto__main--info {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        padding: 0;
+        background-color: rgba(54, 49, 49, 0.616);
+
+        .info__h3 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 4rem 0 1rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h4 {
+            font-size: 2.5rem;
+            text-align: center;
+            border-bottom: none;
+            margin:2rem 0 4rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h5 {
+            font-size: 2.5rem;
+            color:white;
+            padding: 0 2rem;
+        }
+
+        .info__enlace {
+            font-size: 2rem;
+            color: white;
+            margin: 0 0 2rem 0;
+            padding: 0 3rem;
+        }
+
+        .contacto__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5rem 0 0 3rem;
+            padding-bottom: 2rem;
+            background-color: rgba(54, 49, 49, 0.876);
+            border-radius: 2rem;
+            width: 85vw;
+            height: 20vh;
+            
+            
+
+            
+
+        .info__h5--redes {
+            color: $color-azul;
+            font-size: 3rem;
+            margin: 2rem 0 1rem 0;
+            
+        }
+
+        .info__enlace {
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .redes--logos {
+            display: flex;
+            flex-direction:row;
+            margin: 2rem 0 0 3rem;
+        }
+
+        .redes--enlace {
+            color: white;
+            text-decoration: none;
+
+            .fa-facebook-square {
+                font-size: 4rem;
+                color: #3b5998;
+                margin-right: 30px;
+            }
+
+            .fa-instagram {
+                font-size: 4rem;
+                color:#E1306C ;
+                margin-right: 30px;
+            }
+
+            .fa-twitter {
+                font-size: 4rem;
+                color: #00acee;
+                margin-right: 30px;
+            }
+
+            .fa-linkedin-in {
+                font-size:4rem;
+                color: #2867B2;
+                margin-right: 30px;
+            }
+        }
+        }
+
+        
+    }
+
+    }
+
+    .section__contacto {
+        .section__contacto__iframe {
+            width: 100vw;
+            margin:0;
+            height: 50vh;
+        }
+    }
+
+}
+
+// Large tablet portrait (ipad con 1024 de H)
+@media (min-width: 601px) and (max-width: 768px)  {
+    html {
+        font-size: 15px;
+    
+    }
+
+    .contacto__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../media/social-media-1795578_1920.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    
+
+    .contacto__main--info {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        padding: 0;
+        background-color: rgba(54, 49, 49, 0.616);
+
+        .info__h3 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 4rem 0 1rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h4 {
+            font-size: 2.5rem;
+            text-align: center;
+            border-bottom: none;
+            margin:2rem 0 4rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h5 {
+            font-size: 2.5rem;
+            color:white;
+            padding: 0 2rem;
+        }
+
+        .info__enlace {
+            font-size: 2rem;
+            color: white;
+            margin: 0 0 2rem 0;
+            padding: 0 3rem;
+        }
+
+        .contacto__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5rem 0 0 3rem;
+            padding-bottom: 2rem;
+            background-color: rgba(54, 49, 49, 0.876);
+            border-radius: 2rem;
+            width: 85vw;
+            height: 20vh;
+            
+            
+
+            
+
+        .info__h5--redes {
+            color: $color-azul;
+            font-size: 3rem;
+            margin: 2rem 0 1rem 0;
+            
+        }
+
+        .info__enlace {
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .redes--logos {
+            display: flex;
+            flex-direction:row;
+            margin: 2rem 0 0 3rem;
+        }
+
+        .redes--enlace {
+            color: white;
+            text-decoration: none;
+
+            .fa-facebook-square {
+                font-size: 4rem;
+                color: #3b5998;
+                margin-right: 30px;
+            }
+
+            .fa-instagram {
+                font-size: 4rem;
+                color:#E1306C ;
+                margin-right: 30px;
+            }
+
+            .fa-twitter {
+                font-size: 4rem;
+                color: #00acee;
+                margin-right: 30px;
+            }
+
+            .fa-linkedin-in {
+                font-size:4rem;
+                color: #2867B2;
+                margin-right: 30px;
+            }
+        }
+        }
+
+        
+    }
+
+    }
+
+    .section__contacto {
+        .section__contacto__iframe {
+            width: 100vw;
+            margin:0;
+            height: 50vh;
+        }
+    }
+
+}
+
+// Tablet Landscape and XL tablet portrait (ipad pro con aprox 1366 de H)
+@media (min-width: 769px) and (max-width: 1024px)  {
+    html {
+        font-size: 20px;
+    
+    }
+
+    .contacto__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../media/social-media-1795578_1920.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    
+
+    .contacto__main--info {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        padding: 0;
+        background-color: rgba(54, 49, 49, 0.616);
+
+        .info__h3 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 4rem 0 1rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h4 {
+            font-size: 2.5rem;
+            text-align: center;
+            border-bottom: none;
+            margin:2rem 0 4rem 0;
+            padding: 0 2rem;
+        }
+
+        .info__h5 {
+            font-size: 2.5rem;
+            color:white;
+            padding: 0 2rem;
+        }
+
+        .info__enlace {
+            font-size: 2rem;
+            color: white;
+            margin: 0 0 2rem 0;
+            padding: 0 3rem;
+        }
+
+        .contacto__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5rem 0 0 3rem;
+            padding-bottom: 2rem;
+            background-color: rgba(54, 49, 49, 0.876);
+            border-radius: 2rem;
+            width: 85vw;
+            height: 20vh;
+            
+            
+
+            
+
+        .info__h5--redes {
+            color: $color-azul;
+            font-size: 3rem;
+            margin: 2rem 0 1rem 0;
+            
+        }
+
+        .info__enlace {
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .redes--logos {
+            display: flex;
+            flex-direction:row;
+            margin: 2rem 0 0 3rem;
+        }
+
+        .redes--enlace {
+            color: white;
+            text-decoration: none;
+
+            .fa-facebook-square {
+                font-size: 4rem;
+                color: #3b5998;
+                margin-right: 30px;
+            }
+
+            .fa-instagram {
+                font-size: 4rem;
+                color:#E1306C ;
+                margin-right: 30px;
+            }
+
+            .fa-twitter {
+                font-size: 4rem;
+                color: #00acee;
+                margin-right: 30px;
+            }
+
+            .fa-linkedin-in {
+                font-size:4rem;
+                color: #2867B2;
+                margin-right: 30px;
+            }
+        }
+        }
+
+        
+    }
+
+    }
+
+    .section__contacto {
+        .section__contacto__iframe {
+            width: 100vw;
+            margin:0;
+            height: 50vh;
+        }
+    }
 
 }
