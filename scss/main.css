@@ -303,6 +303,7 @@ a {
       background-attachment: fixed;
       background-position: center center;
       height: 85vh;
+      width: 100vw;
       display: flex; }
 
   .footer {
